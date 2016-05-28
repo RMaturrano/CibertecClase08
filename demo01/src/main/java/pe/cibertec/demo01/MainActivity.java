@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }else{
             //Muetra el botón de mi ubicación
             mGoogleMap.setMyLocationEnabled(true);
-            mGoogleMap.getUiSettings().setMyLocationButtonEnabled(true);
+//            mGoogleMap.getUiSettings().setMyLocationButtonEnabled(true);
         }
 
         PolylineOptions polylineOptions = new PolylineOptions();
